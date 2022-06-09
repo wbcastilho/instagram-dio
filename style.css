@@ -135,14 +135,14 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 90%;
+    width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
 
 .form-login {
     display: flex;
-    width: 70%;
+    width: 80%;
     align-items: center;     
     align-content: space-around;  
     flex-direction: column;
@@ -203,11 +203,41 @@ input:focus:-moz-placeholder { /* Firefox 18- */
     justify-content: center;
     border-radius: 4px;
     height: 30px;
+    margin-bottom: 30px;
+}
+
+.ou-line{
+    display: block;
+    background-color: #ccc;
+    height: 1px;
+    width: 100%; 
+   
+}
+
+.ou {
+    margin-top: -6px;
+    width: 50px;
+    height: 20px;
+    background-color: #fff;
+    text-align: center;
+    color: #999;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.facebook-text {
+    font-size: 11pt;
+    color: #385185;
+    margin-bottom: 15px;
+}
+
+.senha-text {
+    font-size: 9pt;
+    color: #385185;
 }
 
 /* media queries */
-
-
 @media (max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
