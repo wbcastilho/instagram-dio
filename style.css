@@ -243,6 +243,45 @@ input {
     color: #000 !important;
 }
 
+footer {
+    position: absolute;      
+    bottom: -180px; 
+    display: flex;
+    align-content: center;
+    align-items: center;    
+    margin-bottom: 10px;  
+    flex-direction: column;    
+}
+
+footer .row {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;   
+    width: 80%; 
+    flex-wrap: wrap; 
+    height: 60px;      
+}
+
+footer .row .item {   
+    font-size: 8pt;
+    color: #999;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer .row .item-300 {
+    width: 220px;   
+}
+
+footer .row .item-200 {
+    width: 150px;   
+}
+
+footer .row .item-100 {
+    width: 90px;    
+}
+
 /* media queries */
 @media (max-width: 1024px) {
     .instagram-wrapper {
