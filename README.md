@@ -1,6 +1,6 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Desafio recriando a tela de login do Instagram da Dio 🙃
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+Esse é uma continuação da aula de Flexbox, na foi feito a interface de login do Instagram! 
 
 ### Os requisitos são:
 
